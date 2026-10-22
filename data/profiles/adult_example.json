@@ -1,0 +1,60 @@
+{
+  "name": "adult#001",
+  "dia": 5,
+  "timezone": "Europe/London",
+  "current_basal": 1.2674,
+  "basalprofile": [
+    {
+      "minutes": 0,
+      "rate": 1.2674,
+      "start": "00:00:00",
+      "i": 0
+    }
+  ],
+  "sens": 8.773107,
+  "isfProfile": {
+    "units": "mg/dL",
+    "sensitivities": [
+      {
+        "sensitivity": 8.773107,
+        "offset": 0,
+        "start": "00:00:00",
+        "minutes": 0,
+        "i": 0
+      }
+    ]
+  },
+  "carb_ratio": 10,
+  "carb_ratios": {
+    "units": "grams",
+    "schedule": [
+      {
+        "start": "00:00:00",
+        "offset": 0,
+        "ratio": 10,
+        "x": 0,
+        "i": 0,
+        "r": 10
+      }
+    ]
+  },
+  "min_bg": 100,
+  "max_bg": 120,
+  "bg_targets": {
+    "units": "mg/dL",
+    "targets": [
+      {
+        "offset": 0,
+        "start": "00:00:00",
+        "low": 100,
+        "high": 120,
+        "i": 0
+      }
+    ]
+  },
+  "max_iob": 3,
+  "max_basal": 2,
+  "min_5m_carbimpact": 8,
+  "autosens_min": 0.7,
+  "autosens_max": 1.2
+}

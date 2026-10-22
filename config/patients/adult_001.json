@@ -1,0 +1,34 @@
+{
+  "patient_id": "adult#001",
+  "source": "SimGlucose",
+  "purpose": "synthetic HIL software testing",
+  "simglucose_parameters": {
+    "carbohydrate_ratio_g_per_U": 10,
+    "correction_factor_source_value": 8.773107,
+    "correction_factor_units": "unverified",
+    "age_years": 61,
+    "total_daily_insulin_U": 50.416652,
+    "body_weight_kg": 102.32,
+    "baseline_glucose_mg_dL": 138.56,
+    "u2ss": 1.238624,
+    "basal_reference_U_per_min": 0.021123,
+    "basal_reference_U_per_hour": 1.2674
+  },
+  "oref0_profile": {
+    "status": "not_configured",
+    "basal_schedule": null,
+    "insulin_sensitivity_schedule": null,
+    "glucose_target_schedule": null,
+    "dia_hours": null,
+    "timezone": "Europe/London"
+  },
+  "experimental_assumptions": {
+    "status": "pending_review",
+    "dia_hours": null,
+    "glucose_target_min_mg_dL": null,
+    "glucose_target_max_mg_dL": null,
+    "max_iob_U": null,
+    "max_basal_U_per_hour": null,
+    "notes": "Experimental settings must be explicitly selected, justified, and validated before profile generation."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "patient_id": "adult#001",
+  "source": "SimGlucose",
+  "purpose": "synthetic HIL software testing",
+  "simglucose_parameters": {
+    "carbohydrate_ratio_g_per_U": 10,
+    "correction_factor_source_value": 8.773107,
+    "correction_factor_units": "verified_mg_dL_per_U",
+    "age_years": 61,
+    "total_daily_insulin_U": 50.416652,
+    "body_weight_kg": 102.32,
+    "baseline_glucose_mg_dL": 138.56,
+    "u2ss": 1.238624,
+    "basal_reference_U_per_min": 0.021123,
+    "basal_reference_U_per_hour": 1.2674
+  },
+  "oref0_profile": {
+    "status": "configured",
+    "basal_schedule": [
+      {
+        "minutes": 0,
+        "rate": 1.2674,
+        "start": "00:00:00",
+        "i": 0
+      }
+    ],
+    "insulin_sensitivity_schedule": [
+      {
+        "sensitivity": 8.773107,
+        "offset": 0,
+        "start": "00:00:00",
+        "minutes": 0,
+        "i": 0
+      }
+    ],
+    "glucose_target_schedule": [
+      {
+        "offset": 0,
+        "start": "00:00:00",
+        "low": 100,
+        "high": 120,
+        "i": 0
+      }
+    ],
+    "dia_hours": 5,
+    "timezone": "Europe/London"
+  },
+  "experimental_assumptions": {
+    "status": "reviewed",
+    "dia_hours": 5,
+    "glucose_target_min_mg_dL": 100,
+    "glucose_target_max_mg_dL": 120,
+    "max_iob_U": 3,
+    "max_basal_U_per_hour": 2,
+    "notes": "Initial synthetic software-pipeline test only. Constant schedules and DIA, targets, max IOB and max basal are provisional experimental assumptions, not patient-validated settings. Not for clinical use."
+  }
+}
