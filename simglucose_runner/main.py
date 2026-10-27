@@ -10,7 +10,7 @@ from simglucose_runner.serial_bridge import SerialBridge
 # ---------- Configuration ----------
 
 SIMULATION_MINUTES = 150
-REAL_TIME_PER_MINUTE = 1.0
+REAL_TIME_PER_MINUTE = 60.0
 CGM_SAMPLE_INTERVAL = 5
 
 # Hardware connection
@@ -19,7 +19,7 @@ CGM_PORT = "COM14"
 CGM_BAUDRATE = 115200
 
 # Set True to save CSV files; False for test runs without logging.
-LOG_RUNS = False
+LOG_RUNS = True
 
 
 # ---------- Terminal Commands ----------
