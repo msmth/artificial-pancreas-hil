@@ -3,6 +3,7 @@
   "dia": 5,
   "timezone": "Europe/London",
   "current_basal": 1.2674,
+  "max_daily_basal": 1.267,
   "basalprofile": [
     {
       "minutes": 0,

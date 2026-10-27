@@ -66,6 +66,9 @@ def main():
         "dia": dia,
         "timezone": profile_config["timezone"],
         "current_basal": basal_rate,
+        "max_daily_basal": round(
+            max(entry["rate"] for entry in basal_schedule), 3
+        ),
         "basalprofile": basal_schedule,
         "sens": sensitivity,
         "isfProfile": {

@@ -1,0 +1,58 @@
+[
+  {
+    "date": 1793095104191,
+    "dateString": "2026-10-27T09:58:24+0000",
+    "sgv": 142,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 142
+  },
+  {
+    "date": 1793094804130,
+    "dateString": "2026-10-27T09:53:24+0000",
+    "sgv": 140,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 140
+  },
+  {
+    "date": 1793094504119,
+    "dateString": "2026-10-27T09:48:24+0000",
+    "sgv": 139,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 139
+  },
+  {
+    "date": 1793094204057,
+    "dateString": "2026-10-27T09:43:24+0000",
+    "sgv": 139,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 139
+  },
+  {
+    "date": 1793093903950,
+    "dateString": "2026-10-27T09:38:23+0000",
+    "sgv": 139,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 139
+  },
+  {
+    "date": 1793093603951,
+    "dateString": "2026-10-27T09:33:23+0000",
+    "sgv": 139,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 139
+  },
+  {
+    "date": 1793093303879,
+    "dateString": "2026-10-27T09:28:23+0000",
+    "sgv": 139,
+    "device": "simulated-cgm",
+    "type": "sgv",
+    "glucose": 139
+  }
+]
